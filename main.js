@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
         // if(error ===0){
             form.classList.add('none');
             applicationform.classList.remove('none')
-            let response = await fetch('sendmail.php',{
+            let response = await fetch('mail.php',{
                 method: 'POST',
                 body: formData
             });
